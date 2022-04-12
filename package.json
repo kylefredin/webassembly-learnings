@@ -4,8 +4,12 @@
   "description": "WebAssembly stuff",
   "main": "index.js",
   "scripts": {
+    "build": "wat2wasm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kyle Fredin <kylefredin@gmail.com>",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "wat-wasm": "^1.0.43"
+  }
 }
