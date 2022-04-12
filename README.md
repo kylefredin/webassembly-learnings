@@ -1,5 +1,11 @@
 # WebAssembly Learnings
 
+## How to convert wat to wasm
+
+We can convert WebAssembly Text to WASM by using the `build` script.
+
+- Run `npm run build <path-to-wat-file>`
+
 ## Resources
 
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format)
