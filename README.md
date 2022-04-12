@@ -4,6 +4,12 @@
 
 - Run `npm run build <path-to-wat-file>`
 
+### Notes
+
+- The only data type that a JavaScript callback function can receive is number
+- You cannot return 64-bit integers until the [BigInt WebAssembly](https://github.com/WebAssembly/JS-BigInt-integration) proposal is implemented
+- WAT doesn't really support OOP
+
 ## Resources
 
 - [Binary Format Spec](https://webassembly.github.io/spec/core/binary/index.html)
